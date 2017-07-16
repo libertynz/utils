@@ -16,4 +16,4 @@ def make_snake_case(text: str) -> str:
 
 
 if __name__ == '__main__':
-    print(make_snake_case('Héllø Wörld'))
+    print(make_snake_case(' Héllø Wörld   '))
