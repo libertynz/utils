@@ -15,7 +15,6 @@ setup(
     description='Handy utilities for python programming',
     long_description=readme,
     author='Brendon Mackenzie',
-    author_email='brendon@primitiveman.co.nz',
     url='https://github.com/libertynz/utils',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
