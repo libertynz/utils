@@ -11,7 +11,7 @@ def make_snake_case(text: str) -> str:
     :return: a string which snake cases the text provided
     """
     chars = 'abcdefghijklmnopqrstuvwxyz1234567890_'
-    unclean = text.lower().replace(' ', '_')
+    unclean = text.lower().strip().replace(' ', '_')
     return ''.join(e for e in unclean if e in chars)
 
 
