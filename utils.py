@@ -1,5 +1,5 @@
 """
-Some useful utilities for python
+Some useful utilities for python, such as current directory, etc.
 """
 
 
